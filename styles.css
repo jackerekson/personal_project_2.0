@@ -1,0 +1,75 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 60vh;
+    width: 45vw;
+}
+
+.grid div {
+    height: 13vh;
+    width: 6vw;
+}
+
+#box .player-one {
+    background-color: #d00000;
+    height: 10vh;
+    width: 8vw;
+    border-radius: 50px;
+    border: 1px;
+}
+
+#box .player-two {
+    background-color: #ffba08;
+    height: 10vh;
+    width: 8vw;
+    border-radius: 50px;
+    border: 1px;
+}
+
+#box .empty {
+    background-color: rgb(32, 173, 159);
+    height: 10vh;
+    width: 8vw;
+    border-radius: 50px;
+    border: 1px;
+
+}
+
+#hidden {
+    border: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('./background.jpg');
+    color: turquoise;
+}
+
+#box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:turquoise;
+    
+}
+#box:hover {
+    background-color: #515f6d;
+}
+
+button {
+    background-color: #515f6d;
+    color: turquoise;
+    border: none;
+    margin: 5px;
+    font-family: Allison;
+    font-size: 25px;
+    box-shadow: 0 0 20px #6eacee
+  }
